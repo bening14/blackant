@@ -1,0 +1,63 @@
+/* Print CSS Styles */
+
+.thecssawards,
+.thecssawards a,
+nav,
+nav ul,
+nav ul li,
+
+footer,
+
+.external,
+.launch,
+
+.share
+
+
+{ display: none !important; }
+
+
+
+.project, .project-25, .project-70, .project-75 { margin: 0 0 0 0; }
+ 
+  
+h1 { font-family: Georgia, "Times New Roman", Times, serif; font-size: 36px; font-weight: normal; }
+h2 { font-family: Georgia, "Times New Roman", Times, serif; font-size: 18px; font-weight: normal; margin-top: 20px; margin-bottom: 5px; }
+
+p, li { font-size: 12px;  }
+
+
+header h1, header h1 a { font-size: 12px; text-decoration: none; font-weight: bold; color: #555; text-align: right; }
+
+
+.portfolio ul { margin-left: 0; padding-left: 0; }
+
+.portfolio-list li, .unbranded-list li  { padding: 0; margin: 0;list-style-type: none; list-style: none; }
+.portfolio-list li img, .unbranded-list li img { margin-top: 10px; margin-bottom: 0px; padding-bottom: 0;  }
+.portfolio-list li h1, .unbranded-list li h1 { font-size: 21px; margin: 0 0 5px 0;  }
+.portfolio-list li h2, .unbranded-list li h2 { font-size: 14px; margin: 0 0 5px 0; }
+.portfolio-list li p, .unbranded-list li p { margin: 0 0 0 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

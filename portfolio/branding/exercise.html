@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<title>Judul | Sub judul</title>
+<meta name="description" content="Keterangan Meta konten untuk SEO disni.">
+<link rel="canonical" href="index.html">
+<link rel="stylesheet" href="../../css/styles.css" media="screen">
+<link rel="icon" href="../../images/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="../../css/print.css" media="print"> 
+<link rel="stylesheet" href="../../css/colorbox.css" media="screen">
+<script src="../../js/jquery-1.4.2.min.js"></script>
+<script src="../../js/custom.js"></script>
+<script src="../../js/jquery.colorbox-min.js"></script>
+<script src="../../js/cufon-yui.js"></script>
+<script src="../../js/clarendon_500.font.js"></script>
+<script>Cufon.replace('h2'); Cufon.replace('h3'); Cufon.replace('.project-25 h1');</script>
+<script>$(document).ready(function() { $('.project').delay(100).hide().fadeIn(500); } );</script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4882481-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+
+<a id="top"></a>
+<!--<div class="thecssawards"><a href="http://www.thecssawards.com/">website awards</a></div>-->
+<header class="cf">
+	<nav>
+		<ul class="cf">
+			<li><a href="../../index.html" title="Home">Home</a></li>
+			<li><a href="../../portfolio/index.html" title="Portfolio Kami">Portfolio</a></li>
+			<li><a href="../../harga/index.html" title="Price List">Harga</a></li><!--ubah link href="clients/index.html-->
+			<li><a href="../../order/index.html" title="Informasi Cara Order">Info Order</a></li><!--unbranded/index.html-->
+			<li><a href="../../about/index.html" title="Tentang BlackantCreative">Tentang Kami</a></li>
+			<li><a href="http://store.blackantcreative.com" target="_blank" title="Kunjungi Toko Kami">Our Store</a></li>
+		</ul>
+	</nav>
+	<h1 class="logo cf"><a href="../../index.html" title="BlackantCreative">BlackantCreative Jasa Design Logo</a></h1>
+
+</header>
+<article class="project cf">
+	<div class="project-25">
+		<h1>Exercise</h1>
+		<h2>Kategori:</h2>
+		<ul>
+			<li>Logo</li>
+		</ul>
+		<h2>Profil Singkat Perusahaan:</h2>
+		<p>Exercise merupakan sebuah perusahaan yang bergerak dalam bidang Web Marketing.</p>
+		<h2>Tool Requirement:</h2>
+		<P>Sketsa Manual</P>
+		<p>Corel Draw Grapich Suite</p>
+		<p>Adobe Photoshop</p>
+		
+		<aside class="share cf">
+			<h3>Share this</h3>
+			<div class="addthis_toolbox addthis_default_style addthis_brandify">
+				<div class="addthis_toolbox addthis_default_style addthis_default_style_brandify"> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a>  <a class="addthis_button_compact"></a></div>
+				<div class="googleplusone">
+					<g:plusone size="small"></g:plusone>
+				</div>
+			</div>
+		</aside>	
+		<footer id="portfolio-nav" class="cf">
+			<ul id="portfolio-menu">
+				<li class="top">
+					<div><a href="#top">Atas Halaman</a></div>
+				</li>
+				<li class="thumbs">
+					<div><a href="../index.html">Home</a></div>
+				</li>
+				<li class="prev">
+					<div><a href="../branding/desbio.html">&lt; Prev</a></div>
+				</li>
+				<li class="next">
+					<div><a href="../branding/fuor.html">Next &gt;</a></div>
+				</li>
+			</ul>
+		</footer>		
+	</div>
+	<div class="project-75"><a href="../../images/portfolio/logo besar.jpg" rel="example4" title="Logo."><img src="../../images/portfolio/logo besar.jpg" alt="logo" width="750" height="490"></a> <a href="../../images/portfolio/logo besar.jpg" rel="example4" title="logo."><img src="../../images/portfolio/logo besar.jpg" alt="logo" width="750" height="490"></a> <a href="../../images/portfolio/logo besar.jpg" rel="example4" title="logo."><img src="../../images/portfolio/logo besar.jpg" alt="logo" width="750" height="490"></a></div>
+</article>
+<script>
+$(function () {
+  var msie6 = $.browser == 'msie' && $.browser.version < 7;
+  if (!msie6) {
+    var top = $('#portfolio-menu').offset().top - parseFloat($('#portfolio-menu').css('margin-top').replace(/auto/, 0));
+    $(window).scroll(function (event) {
+      // what the y position of the scroll is
+      var y = $(this).scrollTop();
+      // whether that's below the form
+      if (y >= 742) {
+        // if so, ad the fixed class
+        $('#portfolio-menu').addClass('fixed');
+      } else {
+        // otherwise remove it
+        $('#portfolio-menu').removeClass('fixed');
+      }
+    });
+  }  
+});
+</script>
+<script>
+$(document).ready(function(){
+$("footer li div").fadeTo(250, 1);
+$("footer li div").hover(function(){
+$(this).fadeTo(250, 0);
+},function(){
+$(this).fadeTo(250, 1);
+});
+});
+</script>
+<script src="../../../apis.google.com/js/plusone.js"></script>
+<script src="../../../s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e0433625e9c6080"></script>
+</body>
+
+
+</html>

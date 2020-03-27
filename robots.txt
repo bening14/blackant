@@ -1,0 +1,11 @@
+User-agent:*
+Disallow:/pesan/conn.php
+Disallow:/pesan/delete.php
+Disallow:/pesan/home.php
+Disallow:/pesan/login.php
+Disallow:/pesan/logout.php
+Disallow:/pesan/preses.php
+Disallow:/portfolio/branding
+Disallow:/css
+Disallow:/js
+Disallow:/images
